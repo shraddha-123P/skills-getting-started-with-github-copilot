@@ -145,8 +145,14 @@ footer {
 .participants {
   color: #888;
   font-style: italic;
+   margin-top: 10px;
 }
 .participants ul {
   list-style-type: disc;
   margin-left: 20px;
 } 
+
+.participants li {
+  color: #555;
+  font-style: italic;
+}
