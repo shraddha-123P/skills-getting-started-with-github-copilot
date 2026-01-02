@@ -22,77 +22,34 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 # In-memory activity database
 activities = {
     "Chess Club": {
-        "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
-    },
-    "Programming Class": {
-        "description": "Learn programming fundamentals and build software projects",
-        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
+        "description": "Sharpen your mind and compete in chess tournaments.",
+        "schedule": "Wednesdays 3:30-5:00pm, Room 204",
         "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        "participants": ["michael@mergington.edu", "emma@mergington.edu"]
     },
-    "Gym Class": {
-        "description": "Physical education and sports activities",
-        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
-        "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
-    },
-    "Basketball Team": {
-        "description": "Join the basketball team and compete in local tournaments",
-        "schedule": "Mondays and Wednesdays, 4:00 PM - 6:00 PM",
+    "Robotics Team": {
+        "description": "Build and program robots for regional competitions.",
+        "schedule": "Mondays & Thursdays 4:00-6:00pm, Lab 3",
         "max_participants": 15,
-        "participants": []
-    },
-    "Soccer Club": {
-        "description": "Practice soccer skills and play matches",
-        "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
-        "max_participants": 20,
-        "participants": []
-    },
-    "Art Club": {
-        "description": "Explore various art techniques and create projects",
-        "schedule": "Fridays, 3:00 PM - 5:00 PM",
-        "max_participants": 15,
-        "participants": []
+        "participants": ["anna@mergington.edu","david@mergington.edu"]
     },
     "Drama Club": {
-        "description": "Participate in theater productions and improve acting skills",
-        "schedule": "Thursdays, 4:00 PM - 6:00 PM",
+        "description": "Act, direct, and produce school plays and musicals.",
+        "schedule": "Tuesdays 3:30-5:30pm, Auditorium",
+        "max_participants": 25,
+        "participants": ["olivia@mergington.edu", "noah@mergington.edu"]
+    },
+    "Science Olympiad": {
+        "description": "Compete in science events and experiments.",
+        "schedule": "Fridays 3:30-5:00pm, Science Wing",
+        "max_participants": 18,
+        "participants": ["ava@mergington.edu", "william@mergington.edu"]
+    },
+    "Art Club": {
+        "description": "Explore your creativity with painting, drawing, and sculpture.",
+        "schedule": "Thursdays 3:30-5:00pm, Art Room",
         "max_participants": 20,
-        "participants": []
-    },
-    "Debate Team": {
-        "description": "Engage in debates and improve public speaking skills",
-        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
-        "max_participants": 12,
-        "participants": []
-    },
-    "Math Club": {
-        "description": "Solve challenging math problems and compete in contests",
-        "schedule": "Tuesdays, 3:00 PM - 4:30 PM",
-        "max_participants": 10,
-        "participants": []
-    }
-}
-    "Chess Club": {
-        "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 12,
-        "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
-    },
-    "Programming Class": {
-        "description": "Learn programming fundamentals and build software projects",
-        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
-        "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
-    },
-    "Gym Class": {
-        "description": "Physical education and sports activities",
-        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
-        "max_participants": 30,
-        "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+        "participants": ["mia@mergington.edu", "james@mergington.edu"]
     }
 }
 
