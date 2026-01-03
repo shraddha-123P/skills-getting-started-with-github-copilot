@@ -20,22 +20,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const spotsLeft = details.max_participants - details.participants.length;
 
-        // Build participants list HTML
+        // Build participants section (pretty, bulleted, styled)
         let participantsHTML = "";
         if (details.participants.length > 0) {
           participantsHTML = `
-            <div class="participants-section participants">
-              <strong>Participants:</strong>
-              <ul class="participants-list">
+            <div class="participants">
+              <div><strong>Participants:</strong></div>
+              <ul>
                 ${details.participants.map(email => `<li>${email}</li>`).join("")}
               </ul>
             </div>
           `;
         } else {
           participantsHTML = `
-            <div class="participants-section">
-              <strong>Participants:</strong>
-              <span class="no-participants">No participants yet</span>
+            <div class="participants">
+              <div><strong>Participants:</strong> <span class="no-participants">No participants yet.</span></div>
             </div>
           `;
         }
